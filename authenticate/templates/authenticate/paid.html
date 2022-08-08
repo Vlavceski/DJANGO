@@ -73,7 +73,7 @@ onclick="if(document.getElementById('spoiler') .style.display=='none') {document
               <input type="button" value="Pay" class="btn" onclick="Function()">
               <script>
                 function Function() {
-                    location.replace("http://localhost:8000")
+                    location.replace("{% url 'home' %}")
                 }
                 </script>
             </form>
